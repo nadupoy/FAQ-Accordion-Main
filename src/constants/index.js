@@ -24,3 +24,8 @@ export const details = [
       "The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.",
   },
 ];
+
+export const links = {
+  gitHub: "https://github.com/nadupoy",
+  frontendMentor: "https://www.frontendmentor.io/profile/nadupoy",
+};
