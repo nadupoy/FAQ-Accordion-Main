@@ -16,12 +16,12 @@ const Widget = ({ summary, content }) => {
     <details onToggle={toggleDetails} className="text-base mt-4 break-words">
       <summary className="list-none">
         <div className="flex items-center justify-between">
-          <p className="max-w-56 text-dark-purple font-semibold">{summary}</p>
+          <p className="w-56 text-dark-purple font-semibold lg:w-[480px]">{summary}</p>
           <img src={icon} alt="icon" width={24} height={24} />
         </div>        
       <hr className="border-light-pink mt-4" />
       </summary>
-      <p className="max-w-64 mt-4 text-sm text-grayish-purple">{content}</p>
+      <p className="w-64 mt-4 text-sm text-grayish-purple lg:w-[480px]">{content}</p>
     </details>
   );
 };
